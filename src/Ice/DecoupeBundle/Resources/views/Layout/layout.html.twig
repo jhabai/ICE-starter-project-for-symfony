@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>{% block meta_title %} site name{% endblock meta_title %}</title>
+
+    {% block meta_desc %}{% endblock meta_desc %}
+
+    {% block meta_properties %}
+    {% endblock meta_properties %}
+
+    {% block css %}
+
+
+        {#        <link rel="stylesheet" href="{{ asset('/bundles/icedecoupe/assets/app.css') }}">#}
+
+    {% endblock css %}
+
+
+</head>
+<body>
+
+<div class="off-canvas-wrapper" data-sticky-container>
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+
+        </div>
+        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <header data-sticky data-options="marginTop:0;" style="width:100%" data-top-anchor="1" data-btm-anchor="content:bottom">
+
+                <div class="grid-container">
+                    <button class="hamburger hamburger--elastic hide-for-large-up" type="button" data-toggle="offCanvasLeft"
+                            aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
+                        <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <img src="https://picsum.photos/239/70" alt="logo" />
+                </div>
+            </header>
+            <main id="content">
+                <div class="grid-container">
+                    <div class="grid-x">
+                        <div class="cell small-4 medium-4">6 columns</div>
+                        <div class="cell small-4 medium-4">6 columns</div>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-x">
+                        <div class="cell small-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+            <footer>
+                <div class="grid-container ">
+                    <div class="grid-x">
+                        <div class="cell small-4">
+                            Footer
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem doloribus excepturi libero magni nesciunt non ratione unde. Autem dicta exercitationem quas quia voluptate. Debitis eligendi explicabo fuga non quis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</div>
+
+
+{% block js %}
+    <script src="/bundles/icedecoupe/assets/bundle.js"></script>
+{% endblock js %}
+
+</body>
+</html>
